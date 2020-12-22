@@ -2,13 +2,14 @@
 21/12/2020
 
 ### Project Title
-Bikeshare Interactive Code 
+Bikeshare Interactive Code
 
 ### Description
 This project provides a python code to:
-  - Read data provided by [Motivate](https://www.motivateco.com/) and wrangle by Udacity.
-  - Provide an iterative experience to explore the three databases (chicago.csv; new_york_city; washington).
+  - Read data provided by [Motivate](https://www.motivateco.com/) and wrangled by Udacity.
+  - Provide an iterative experience to explore the three databases (chicago.csv; new_york_city.csv; washington.csv).
   - Provide descriptive statistics based on user's answers to some questions.
+This is all done using Pandas, numpy and time libraries.
 
 ### Files used
 bikeshare.py
