@@ -211,7 +211,6 @@ def raw_data(df):# shows user 5 lines of raw data at a time by request if possib
 
         if raw_data.lower() not in valid:
             print('\nIt seems you have entered an incorrect input, please try again\n')
-
         if raw_data.lower() == 'yes':
             try:
                 print(df.iloc[ current_raw:current_raw+4 , : ])
@@ -219,10 +218,9 @@ def raw_data(df):# shows user 5 lines of raw data at a time by request if possib
             except:
                 print('\nWe have none or less than 5 rows left, moving to the next question\n')
                 break
-
         elif raw_data.lower() == 'no':
                 break
-
+                
 def main():
     while True:
         city, month, day = get_filters()
@@ -238,7 +236,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
