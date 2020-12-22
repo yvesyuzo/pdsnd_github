@@ -60,8 +60,6 @@ def get_filters():
             break
         else:
             print('It seems you have entered an incorrect input, please try again')
-
-
     print('-'*40)
     return city, month, day
 
