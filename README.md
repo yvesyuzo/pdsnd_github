@@ -18,3 +18,4 @@ washington.csv
 
 ### Credits
 https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104
+https://pandas.pydata.org/pandas-docs/stable/index.html
