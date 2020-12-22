@@ -1,15 +1,20 @@
 ### Date created
-Include the date you created this project and README file.
+21/12/2020
 
 ### Project Title
-Replace the Project Title
+pdsnd_github iteractive stats
 
 ### Description
-Describe what your project is about and what it does
+This project provides a python code to:
+  - Read data provided by [Motivate](https://www.motivateco.com/) and wrangle by Udacity.
+  - Provide an iterative experience to explore the three databases (chicago.csv; new_york_city; washington).
+  - Provide descriptive statistics based on user's answers to some questions.
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104
